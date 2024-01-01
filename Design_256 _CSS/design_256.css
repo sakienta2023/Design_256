@@ -6,8 +6,9 @@
 
 body {
     min-height: 100vh;
-    background-image: url("Design_256/Design_256_Images/IMG_20230824_134913_7.jpg");
+    background-image: url(Design_256_Images/christopher-gower-m_HRfLhgABo-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
