@@ -6,7 +6,8 @@
 
 body {
   min-height: 100vh;
-  background-image: url("DesignME/designMe09.jpg");
+  /* background-image: url("DesignME/designMe09.jpg"); */
+  background: linear-gradient(rgba(0,0,0,0.5),#00009688),url("DesignME/designMe09.jpg") ;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
