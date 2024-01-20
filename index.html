@@ -1,53 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="design_256.css" />
-    <title>DesignME_256</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Barber Site</title>
+  <link href="design_256.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
-
+  
 <body>
+  <section id="banner">
+    <img src="DesignME_Images/designMeLogo.svg" class="logo">
+    <div class="banner-text">
+      <h1>Crotchet Online</h1>
+      <p>Design Me 256</p>
+    <div class="banner-btn">
+      <a href="#"><span></span>Find Out</a>
+      <a href="#"><span></span>Read More</a>
+    </div>
+    </div>
+  </section>
+  <div id="sideNav">
     <nav>
-        <ul class="sidebar">
-            <li onclick="hideSidebar()">
-                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
-                        <path
-                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
-                    </svg></a>
-            </li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">About</a></li>
-        </ul>
-        <ul>
-            <li class="DesignMeLogo">
-                <a href="#"><img src="DesignME/designMeLogo.svg" alt="DesignMeLogo" height="50px" /></a>
-            </li>
-            <li class="hideOnMobile"><a href="#">Products</a></li>
-            <li class="hideOnMobile"><a href="#">Contact Us</a></li>
-            <li class="hideOnMobile"><a href="#">Blog</a></li>
-            <li class="hideOnMobile"><a href="#">About</a></li>
-            <li onclick="showSidebar()" class="menu-button">
-                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
-                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
-                    </svg></a>
-            </li>
-        </ul>
+      <ul>
+        <li><a href="#banner">HOME</a></li>
+        <li><a href="#feature">FEATURES</a></li>
+        <li><a href="#service">SERVICES</a></li>
+        <li><a href="#testmonial">TESTIMONIALS</a></li>
+        <li><a href="#footer">CONTACT US</a></li>
+      </ul>
     </nav>
-    <script>
-        function showSidebar() {
-            const sidebar = document.querySelector(".sidebar");
-            sidebar.style.display = "flex";
-        }
+  </div>
+  <div id="menuBtn">
+    <img src="Images/menu.png" id="menu">
+  </div>
 
-        function hideSidebar() {
-            const sidebar = document.querySelector(".sidebar");
-            sidebar.style.display = "none";
-        }
-    </script>
+<!--Features-->
+  <section id="features">
+    <div class="title-text">
+      <p>Features</p>
+      <h1>Why Choose Us?</h1>
+    </div>
+    <div class="features-box">
+      <div class="features">
+        <h1>Quality Design</h1>
+        <div class="features-desc">
+         <div class="features-icon">
+           <i class="fa fa-shield"></i>
+         </div>
+         <div class=Features-text>
+          <p>Our flagship product, Design Me 256, is a versatile and powerful design software that caters to both beginners and professionals. It offers a wide range of features that allow users to create stunning designs for various purposes.</p>
+        </div>
+      </div> 
+        <h1>Pre Booking Online</h1>
+        <div class="features-desc">
+         <div class="features-icon">
+           <i class="fa fa-check-square-o"></i>
+         </div>
+         <div class=Features-text>
+          <p>With our intuitive interface and easy-to-use tools, users can create beautiful graphics for print or digital media. From logos and brochures to social media posts and infographics, Design Me 256.</p>
+        </div>
+      </div> 
+        <h1>Affordable Cost</h1>
+        <div class="features-desc">
+         <div class="features-icon">
+           <i class="fa fa-inr"></i>
+         </div>
+         <div class=Features-text>
+          <p>Design Me Crochet offers a built-in charting feature that allows users to create visual representations of their patterns, making it easier to follow and understand.</p>
+        </div>
+      </div> 
+    </div>
+        <div class="features-img">
+            <img src="Design_256/DesignME_Images/designMe_02.jpg"> 
+        </div>
+  </section>
+  
+  <!--Service-->
+  <section id="service">
+    <div class="title-text">
+      <p>Services</p>
+      <h1>We Provide Better</h1>
+    </div>
+    <div class="service-box">
+      <div class="single-service">
+        <img src="Design_256/DesignME_Images/designMe_01.jpg">
+        <div class="overlay"></div>
+        <div class="service-desc">
+          <h3>Hair Cut</h3>
+          <hr>
+          <p>This webpage requires data that you entered earlier in order to be properly displayed. 
+            You can send this data again, but by doing so you will repeat any action this page 
+            previously performed.
+            Press the reload button to resubmit the data needed to load the page.</p>
+        </div>
+      </div>
+      <div class="single-service">
+        <img src="Images/photo-1597848212624-a19eb35e2651.jpeg">
+        <div class="overlay"></div>
+        <div class="service-desc">
+          <h3>Hair Cut</h3>
+          <hr>
+          <p>This webpage requires data that you entered earlier in order to be properly displayed. 
+            You can send this data again, but by doing so you will repeat any action this page 
+            previously performed.
+            Press the reload button to resubmit the data needed to load the page.</p>
+        </div>
+      </div>
+      <div class="single-service">
+        <img src="Images/photo-1643281440921-5a066551b995.jpeg">
+        <div class="overlay"></div>
+        <div class="service-desc">
+          <h3>Dry Shampoo</h3>
+          <hr>
+          <p>This webpage requires data that you entered earlier in order to be properly displayed. 
+            You can send this data again, but by doing so you will repeat any action this page 
+            previously performed.
+            Press the reload button to resubmit the data needed to load the page.</p>
+        </div>
+      </div>
+      <div class="single-service">
+        <img src="Images/photo-1605497787865-e6d4762b386f.jpeg">
+        <div class="overlay"></div>
+        <div class="service-desc">
+          <h3>Styling</h3>
+          <hr>
+          <p>This webpage requires data that you entered earlier in order to be properly displayed. 
+            You can send this data again, but by doing so you will repeat any action this page 
+            previously performed.
+            Press the reload button to resubmit the data needed to load the page.</p>
+        </div>
+      </div>
+    </div>
+          
+  </section>
+   
+<!-- Testimonial -->
+
+<section id="testimonial">
+  
+  <div class="title-text">
+    <p>TESTIMONIAL</p>
+    <h1>Client Testimony</h1>
+  </div>
+  
+  <div class="testimonial-row">
+    <div class="testimonial-col">
+      <div class="user">
+        <img src="Images/pexels-photo-7897152.jpeg">
+        <div class="user-info">
+          <h4>John Kakande<i class="fa fa-twitter"></i></h4>
+          <small>@john.Kakande</small>
+        </div>
+    <p>This webpage requires data that you entered earlier in order to be properly displayed. 
+      You can send this data again, but by doing so you will repeat any action this page 
+      previously performed.
+      Press the reload button to resubmit the data needed to load the page.</p>
+      </div>
+    </div> 
+  
+    
+  <div class="testimonial-col">
+    <div class="user">
+      <img src="Images/pexels-photo-2709388.jpeg">
+      <div class="user-info">
+        <h4>Judith Rees<i class="fa fa-twitter"></i></h4>
+        <small>@judith_Rees</small>
+      </div>
+    <p>This webpage requires data that you entered earlier in order to be properly displayed. 
+      You can send this data again. </p> 
+  </div>
+  </div>
+
+  <div class="testimonial-col">
+    <div class="user">
+      <img src="Images/pexels-photo-7322232.jpeg">
+      <div class="user-info">
+        <h4>Cathy Matembe <i class="fa fa-twitter"></i> </h4>
+        <small>@Cath_Matembe</small>
+      </div>
+    <p>This webpage requires data that you entered earlier in order to be properly displayed. 
+      You can send this data again, but by doing so you will repeat any action this page 
+      previously performed.Press the reload button to resubmit the data needed to load the page.
+      </p> 
+  </div>
+  </div> 
+  </div>
+</section>     
+
+    <!-- Footer-->
+
+<section id="footer">
+<img src="DesignME_Images/designMe09.jpg" class="footer-img">
+  <div class="title-text">
+     <p>CONTACT</p>
+     <h1>Visit Shop Today</h1>
+  </div>
+  
+  <div class="footer-row">
+    
+    <div class="footer-left">
+        <h1>Opening Hours</h1>
+    <p> <i class="fa fa-clock-o"></i>Monday to Friday - 9am to 9pm</p>
+    <p> <i class="fa fa-clock-o"></i>Saturday and Sunday - 8am to 11pm </p>
+  </div>
+    
+        <div class="footer-right">
+        <h1>Get in Touch</h1>
+    <p>Plot 76, Patiriisi road, Kyanja<i class="fa fa-map-marker"></i></p>
+    <p>design.me@design256.com<i class="fa fa-paper-plane"></i></p>
+    <p>+256703876037<i class="fa fa-phone"></i></p>
+    </div>
+    
+  </div>
+
+  <div class="social-links">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-youtube"></i>
+    <p>Copyright Design Me 256 2024</p>
+  
+  </div>
+ 
+   
+</section>  
+      
+      
+    
+
+  
+  <script>
+    var menuBtn = document.getElementById("menuBtn")
+      var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+    sideNav.style.right = "-250px";
+ 
+  menuBtn.onclick = function(){
+    if(sideNav.style.right == "-250px"){
+      sideNav.style.right = "0";
+      menu.src = "Images/close.png";
+  }
+    else{
+  sideNav.style.right = "-250px";
+      menu.src = "Images/menu.png";
+    }
+  }
+
+    var scroll = new SmoothScroll('a[href*="#"]', {
+      speed: 1000,
+      speedAsDuration: true
+    });
+  </script>
+
+  
+
+
+
+
+
+  
+
 </body>
 
 </html>
