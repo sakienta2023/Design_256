@@ -10,7 +10,7 @@ html {
 } 
 
 #banner {
-  background: linear-gradient(rgba(0,0,0,0.5),#00009688),url("Images/photo-1605497787865-e6d4762b386f.jpeg");
+  background: linear-gradient(rgba(0,0,0,0.5),#00009688),url("DesignME_Images/designMe09.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
